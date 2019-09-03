@@ -1,0 +1,269 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*,*:before ,*:after {
+	box-sizing: border-box;
+}
+/*header*/
+body {
+	font-family: 'Oxygen', sans-serif;
+}
+.header{
+	background-image: url(../media/header.jpg);
+	background-position: center;
+	padding:100px 0px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.flex{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: space-around;
+	
+}
+.wrapper {
+	max-width: 1300px;
+	margin: 0 auto;
+}
+.head {
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+}
+.head01 {
+	font-size: 50px;
+	padding:10px;
+}
+.text{
+	font-size: 20px;
+	color: rgba(0,0,0,0.5);
+}
+.nav-header {
+	border:1px solid black;
+	margin:40px;
+	padding:25px 45px;
+	background-color: black;
+	border-radius: 30px;
+}
+.img {
+	border-radius:10px;
+}
+.list0 {
+	display:flex;
+	text-transform: uppercase;
+}
+.list1 {
+	margin-left: 40px;
+	color:rgba(255,255,255,0.4);
+}.list1:hover {
+	color:white;
+	cursor: pointer;
+}
+.homepage {
+	margin-left :30px;
+	color:white;
+}
+.sidebar {
+	margin-right: 20px;
+}
+/*section-2*/
+.section-2,.section-3 {
+	background: #fff url(../media/overlay.png);
+	
+}
+.sec2-header {
+	padding:50px 0px;
+}
+.sec2-header0 {
+	padding:20px 0px;
+}
+
+.sec2-h2 {
+	font-size: 40px;
+	padding:0px 0px;
+}
+.section-2 p {
+	font-size: 15px;
+	line-height: 1.6;
+	padding:20px 0px;
+
+}
+.sec2-container {
+	display: flex;
+	justify-content: space-between;
+
+}
+.sec2-container0 {
+	width:21%;
+
+}
+.btn {
+	padding:20px 40px;
+	margin: 20px 0px;
+	border-radius: 14px;
+	background-color: rgba(0,0,0,0.8);
+	color:white;
+	text-transform: uppercase;
+
+}
+.btn:hover {
+	color: white;
+	cursor: pointer;
+}
+.img-container {
+	width: 100%;
+	height: auto;
+	border-radius:20%;
+
+}.img {
+	width: 100%;
+	height: auto;
+	border-radius: 24px;
+}
+a {
+	color:red;
+}
+/*section-3*/
+.section-3 {
+	padding:50px 0px;
+}
+.section-3 h2 {
+	font-size:50px;
+	padding:30px 0px 10px 0px;
+}
+.sec3-head01 p {
+	font-size: 15px;
+	padding:0px 0px 10px 0px;
+}
+.img-mid {
+	padding:20px 0px 30px 0px;
+}
+.section-3 li {
+	line-height: 2.5;
+}
+.sec3-head1 {
+	display: flex;
+}
+.sec3-head01 {
+	flex-basis: 65%;
+	padding:0px 30px 0px 0px;
+}
+.sec3-head02 h3 {
+	font-size: 34px;
+	padding-top:40px;
+	padding-bottom: 20px;
+}
+.sec3-head02 {
+	flex-basis: 35%;
+
+}
+.sec3-p {
+	padding:30px 0px;
+}
+/*section-4*/
+.section-4 {
+	padding:50px 50px;
+}
+.sec4-left {
+	flex-flow: 40%;
+}
+.column1 {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	margin:50px 0px;
+	flex-wrap: wrap;
+
+}
+.flex1 {
+	display: flex;
+	width: 45%;
+	justify-content: space-between;
+	flex-shrink: 1;
+	padding:0px 30px;
+
+}
+.img-small {
+	margin:0px 10px;
+}
+/*sec-4 part2*/
+.section-4 {
+	background-color: rgba(0,0,0,0.9);
+}
+.sec4-right {
+
+flex-basis:60%;
+}
+
+.flex2 {
+	display: flex;
+}
+.sec4-right h2 {
+	padding:30px 0px 0px 0px;
+	font-size: 40px;
+	color:#fff;
+}
+.section-4 p {
+	color: rgba(255,255,255,0.5);
+	font-size:14px;
+}
+.sec4-right p {
+	padding:20px 0px;
+	line-height: 1.5;
+
+}
+.sec4-right li {
+	line-height: 2.5;
+}
+footer {
+	text-align: center;
+	padding: 50px;
+	background-color:rgba(0,0,0,1);
+	color: rgba(255,255,255,0.5);
+}
